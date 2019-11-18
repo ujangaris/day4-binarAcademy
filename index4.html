@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <img src="logo2.jpg" width="100px" height="100px" alt="">
+        <div class="item">
+            <form action="">
+                <label for="femail">Email</label><br>
+                <input type="text" name="femail" id="femail" placeholder="Enter your email"><br><br>
+                <label for="fpass">Password</label><br>
+                <input type="text" placeholder="Enter your password">
+                <br>
+                <br>
+                <button class="button">LOGIN</button>
+            </form>
+        </div>
+    </div>
+    <style>
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            text-align: center;
+            background: #733572ff;
+        }
+
+        h1 {
+            margin: 0 0 8px 0;
+            padding: 0;
+        }
+
+        .container img {
+            margin-top: 80px;
+        }
+
+        .item {
+            border: solid 1px white;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 30px;
+            padding: 16px;
+
+        }
+
+        .title {
+            font-size: 4em;
+            font-weight: 100;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+        }
+
+        .subtitle {
+            font-size: 2.25em;
+            font-family: 'Roboto', sans-serif;
+            font-weight: light;
+            color: white;
+        }
+
+        .button {
+            background-color: #733572ff;
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            width: 100px;
+            /* margin: 4px 2px; */
+        }
+
+        label {
+            margin-top: 20px;
+            color: #733572ff;
+            margin-right: 100px;
+        }
+
+        /* input {
+            height: 35px;
+            padding-right: 20px;
+            text-align: center;
+            color: #733572ff;
+        } */
+        input[type=text] {
+            border-radius: 20px;
+
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #733572ff;
+        }
+    </style>
+</body>
+
+</html>
